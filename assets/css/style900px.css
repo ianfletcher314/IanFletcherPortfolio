@@ -1,25 +1,3 @@
-/*this is where I tried doing it normally but it didnt work :(  */
-@media screen and (max-width: 600px) {
-    .BackGroundPhoto {
-        height: 50%;
-        width: 50%;
-        display: flex;
-        background-image: url("../images/ian2.jpg");
-        flex-direction: row;
-        flex-wrap: wrap;
-        /* flex-flow: row wrap; */
-        justify-content: space-between;
-        /* min-height: 800px; */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        align-items: stretch;
-        border-radius: 1200px;
-    }
-    
-}
-
-
 html{
     height: 100%;
 }
