@@ -1,4 +1,4 @@
-# Ian Fletcher's Portfolio
+# Horiseon SSS 
 
 ## The Repository 
 This Repository is where Ian Fletcher's Portfolio for web design is housed.
@@ -25,7 +25,7 @@ This site should allow users to easily learn about the differnt web design proje
 ![alt text](assets/images/portfolio1.png)
 ![alt text](assets/images/portfolio2.png)
 
-[Check Out The Full Page](https://ianfletcher314.github.io/IanFletcherPortfolio/)
+[Check Out The Full Page](https://ianfletcher314.github.io/Horiseon-SSS-/)
 
 ## Credits
 
