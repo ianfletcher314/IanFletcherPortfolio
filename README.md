@@ -19,7 +19,7 @@ In order to acess and refractor the code you must first go through the Installat
 This should put a copy of the repository into the directory you had chosen in step 1
 
 ## Usage
-This site should allow users to easily learn about the differnt web design projects Ian Fletcher has copleted. There is also a section where the user can learn more about Ian, and get in contact with him. 
+This site should allow users to easily learn about the differnt web design projects Ian Fletcher has completed. There is also a section where the user can learn more about Ian, and get in contact with him. 
 
 
 ![alt text](assets/images/portfolio1.png)
