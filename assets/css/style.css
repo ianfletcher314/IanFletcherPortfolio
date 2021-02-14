@@ -1,8 +1,8 @@
-
 html{
     height: 100%;
 }
-body {margin: 0px;
+body {
+    margin: 0px;
     padding-right: 0px;
     height: 100%;}
 a {
@@ -15,6 +15,7 @@ a {
 h1 {
     font-size: 30px;
 }
+/* this is the top of the web page that has the navigation section and my headshot*/
 .containerforphoto {
     display: flex;
     flex-flow: column;
@@ -39,76 +40,42 @@ h1 {
     border-radius: 1200px;
 }
 
-/* @media screen and (max-width: 600px) {
-    .BackGroundPhoto {
-        height: 50%!important;
-        width: 50%;
-        display: flex;
-        background-image: url("../images/ian2.jpg");
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        align-items: stretch;
-        border-radius: 1200px;
-    }
-    
-} */
 .NavSection {
-    
-    height: 5vh;
+    height: 3vh;
     width: 100%;
     display: flex;
     background-color: white;
     flex-direction: row;
     flex-wrap: nowrap;
-    /* flex-flow: row wrap; */
     justify-content: space-between;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     align-items: stretch;
-    
 }
+
 .IntroName {
     display: flex;
     justify-content: flex-start;
-    /* font-family: sans-serif; */
     padding-left: 20px;
     transform: translateY(19px);
-    /* order: 0; */
 }
+
 .navigationLinks { 
-    /* order: 2; */
     display: flex;
     justify-content: right;
-    /* justify-self: flex-end; */
     transform: translateY(19px);
     margin-right: 20px;
 }
-.contactMeClass { 
-    /* order: 1; */
 
-    align-self: center;
-    transform: translateY(200px);
-    margin-left: 50px;
+/* This section contains the about me section with the paragraph describing me */
 
-    
-}
-/* .BigContainer {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-content: space-between;
-} */
 .continerForAboutMe {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .aboutMeText {
@@ -122,14 +89,18 @@ h1 {
     margin-bottom: 10%;
     line-height: 40px;
     text-align: center;
-}
+} 
+
 .AboutMeHeader {
     display: flex;
     justify-content: center;
     font-size: 60px;
-    margin-bottom: 50px;
-    margin-top: 70px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
+
+/* This section contains the logos of my clients.*/
+
 .containerForClients {
     display: flex;
     flex-flow: column nowrap;
@@ -139,6 +110,7 @@ h1 {
     margin-top: 60px;
     margin-bottom: 40px;
 }
+
 .ClientsHeader {
     order: 0;
     text-align: center;
@@ -146,8 +118,6 @@ h1 {
     margin-top: 20px;
     margin-bottom: 50px;
 }
-
-
 
 .ten {
     display: flex;
@@ -162,6 +132,7 @@ h1 {
     margin-bottom: 35px;
     align-items: center;
 }
+
 .eleven {
     display: flex;
     justify-content: center;
@@ -182,30 +153,30 @@ h1 {
     font-style: italic;
 
 }
+
 .Client2Text {
     color: blanchedalmond;
     font-size: 40px;
     font-style: italic;
 }
 
+/*this section contains the projects section with 3 projects. Project 1 is bigger and in its own container while 2 and 3 sit bellow*/
+
 .Containerforp1head {
     display: flex;
     flex-flow: column wrap;
-    /* text-align: center; */
     justify-content: center;
     align-content: center;
     align-items: center;
     margin-top: 40px;
     margin-bottom: 50px;
 }
+
 .HeaderProjects {
     font-size: 60px;
     margin-bottom: 55px;
     margin-top: 20px;
-    /* margin-left: 600px; */
-    /* margin-right: 600px; */
 }
-
 
 .Containerforp2and3 {
     display: flex;
@@ -216,7 +187,6 @@ h1 {
     margin-bottom: 60px;
 }
 
-
 .Project1image {
     display: flex;
     justify-content: center;
@@ -224,11 +194,10 @@ h1 {
     background-image: url("../images/Horiseon.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    /* margin-left: 300px; */
-    /* margin-right: 300px; */
     height: 75vh;
     width: 80%;
 }
+
 .Project1Text{
     background-color: black;
     font-style: italic;
@@ -236,6 +205,7 @@ h1 {
     color: #ffffff;
     
 }
+
 .Project2Image{
     justify-self: left;
     display: flex;
@@ -247,6 +217,7 @@ h1 {
     height: 70vh;
     width: 42%;
 }
+
 .Project2Text{
     background-color: black;
     font-style: italic;
@@ -254,6 +225,7 @@ h1 {
     color: #ffffff;
     
 }
+
 .Project3Image{
     justify-self: left;
     display: flex;
@@ -266,6 +238,7 @@ h1 {
     width: 42%;
     
 }
+
 .Project3Text{
     background-color: black;
     font-style: italic;
@@ -273,6 +246,9 @@ h1 {
     color: #ffffff;
     
 }
+
+/* This is the section that has the contact section with links*/
+
 .ContactHeadercontainer {
     display: flex;
     flex-flow: row;
@@ -281,6 +257,7 @@ h1 {
     margin-top: 40px;
     margin-bottom: 38px;
 }
+
 .Contactcontainer{
     display: flex;
     flex-flow: row wrap;
@@ -289,15 +266,9 @@ h1 {
     align-items: center;
 }
 
- .Contactheader {
+.Contactheader {
     font-size: 60px;
 }
-
-.ContactEmail{}
-.ContactResume{}
-.ContactInsta{}
-.ContactGit{}
-
 
 .footerformat{ 
     text-align: center;
@@ -305,99 +276,85 @@ h1 {
     font-style: italic;
 }
 
-
-
-
-
-
-
-
-
-
-
+/*this is the media query section where the code is devided into sections depending on screen size. This is what makes the website responsive*/
+/* this is for screens under 360px wide */
 
 @media screen and (max-width:360px)  {
     .NavSection {
         height: 10vh;
     }
+
     h1 {
         font-size: 10px;
     }
+
     a {
         font-size: 10px;
         text-decoration: none;
         color: black;
         font-weight: 900;
     }
-    /* .BackGroundPhoto {
-        height: 20vh;
-        width: 50%;
-      
-    } */
+
     .containerforphoto {
-    
         height: 25%;
     }
+
     .AboutMeHeader {
         font-size: 15px; 
         margin-bottom: 8px;
         margin-top:8px;
         
     }
+
     .continerForAboutMe {
-        
         height: 25%;
     }
+
     .aboutMeText {
-        font-size: 9px;
-        line-height: 9px;
+        font-size: 12px;
+        line-height: 12px;
         padding: 15px;
-      
     }
+
     .containerForClients {
         min-height: 100px;
         margin-top: 60px;
         margin-bottom: 40px;
     }
+
     .ClientsHeader {
         font-size: 15px; 
         margin-bottom: 8px;
         margin-top:8px;
     }
     
-    
-    
     .ten {
         width: 75%;
         height: 15vh;
         margin-top: 20px;
         margin-bottom: 35px;
-
     }
+
     .eleven {
         background-size: 150%;
         width: 75%;
         height: 10vh;
         margin-top: 0px;
         margin-bottom: 0px;
-
     }
     
     .Client1Text {
         font-size: 10px;
-
-    
     }
     .Client2Text {
-
         font-size: 10px;
-
     }
     
     .Containerforp1head {
         margin-top: 40px;
         margin-bottom: 50px;
     }
+
     .HeaderProjects {
         font-size: 15px; 
         margin-bottom: 8px;
@@ -417,91 +374,99 @@ h1 {
         height: 15vh;
         width: 80%;
     }
+
     .Project1Text{
         font-size: 10px;
-        
     }
+
     .Project2Image{
         background-size: 100%;
         height: 16vh;
         width: 42%;
     }
+
     .Project2Text{
         font-size: 10px;
-        
     }
+
     .Project3Image{
         background-size: 100%;
         height: 16vh;
         width: 42%;
-        
     }
+
     .Project3Text{
         font-size: 10px;
     }
+
     .ContactHeadercontainer {
         margin-top: 8px;
         margin-bottom: 8px;
     }
+
     .Contactcontainer{
         height: 14vh;
     }
     
-     .Contactheader {
+    .Contactheader {
         font-size: 15px;
     }
 
 }
+/* this is for screens between 360px and 570 px wide */
+
 @media screen and (min-width: 360px)and (max-width: 570px) {
     h1 {
         font-size: 12px;
     }
+
     .NavSection {
         height: 10vh;
     }
+
     a {
         font-size: 12px;
         text-decoration: none;
         color: black;
         font-weight: 900;
     }
+
     .BackGroundPhoto {
         height: 40vh;
         width: 50%;
-      
     }
+
     .containerforphoto {
-    
         height: 25%;
     }
+
     .AboutMeHeader {
         font-size: 20px;
         margin-bottom: 10px;
         margin-top:10px;
-        
     }
+
     .continerForAboutMe {
-        
         height: 25%;
     }
+
     .aboutMeText {
-        font-size: 9px;
-        line-height: 9px;
+        font-size: 12px;
+        line-height: 12px;
         padding: 20px;
-      
     }
+
     .containerForClients {
         min-height: 200px;
         margin-top: 60px;
         margin-bottom: 40px;
     }
+
     .ClientsHeader {
         margin-bottom: 10px;
         margin-top:10px;
         font-size: 20px;
     }
-    
-    
     
     .ten {
         width: 75%;
@@ -509,272 +474,279 @@ h1 {
         margin-top: 20px;
         margin-bottom: 35px;
         margin-top: 0px;
-    margin-bottom: 0px;
-
+        margin-bottom: 0px;
     }
+
     .eleven {
         background-size: 150%;
         width: 75%;
         height: 20vh;
         margin-top: 0px;
         margin-bottom: 0px;
-
     }
     
     .Client1Text {
         font-size: 10px;
-
-    
     }
+
     .Client2Text {
-
         font-size: 10px;
-
     }
     
     .Containerforp1head {
         margin-top: 40px;
         margin-bottom: 50px;
     }
+
     .HeaderProjects {
         font-size: 20px;
         margin-bottom: 10px;
         margin-top:10px;
     }
     
-    
     .Containerforp2and3 {
         width: 100%;
         margin-top: 22px;
         margin-bottom: 60px;
     }
-    
     
     .Project1image {
         background-size: 100%;
         height: 25vh;
         width: 80%;
     }
+
     .Project1Text{
-        font-size: 10px;
-        
+        font-size: 10px; 
     }
+
     .Project2Image{
         background-size: 100%;
         height: 20vh;
         width: 42%;
     }
+
     .Project2Text{
         font-size: 10px;
-        
     }
+
     .Project3Image{
         background-size: 100%;
         height: 20vh;
         width: 42%;
-        
     }
+
     .Project3Text{
         font-size: 10px;
-        
     }
+
     .ContactHeadercontainer {
         margin-bottom: 10px;
         margin-top:10px;
     }
+
     .Contactcontainer{
         height: 14vh;
     }
-    
-     .Contactheader {
-        font-size: 20px;
-        
+
+    .Contactheader {
+        font-size: 20px; 
     }
 
 }
+
+/* this is for screens between 570px and 710 px wide */
 
 @media screen and (min-width: 570px) and (max-width: 710px) {
     h1 {
         font-size: 20px;
     }
+    .NavSection {
+        height: 5vh;
+    }
+
     a {
         font-size: 20px;
         text-decoration: none;
         color: black;
         font-weight: 900;
     }
+
     .BackGroundPhoto {
         height: 40vh;
         width: 50%;
-      
     }
+
     .containerforphoto {
-    
         height: 55%;
     }
+
     .AboutMeHeader {
         font-size: 25px;
         margin-bottom: 15px;
         margin-top: 25px;
-        
-    } .continerForAboutMe {
-        
+    } 
+    
+    .continerForAboutMe {
         height: 400%;
     }
+
     .aboutMeText {
         font-size: 14px;
         line-height: 20px;
         padding: 30px;
-      
     }
+
     .containerForClients {
         min-height: 200px;
         margin-top: 60px;
         margin-bottom: 40px;
     }
+
     .ClientsHeader {
         font-size: 25px;
         margin-bottom: 15px;
         margin-top: 25px;
     }
     
-    
-    
     .ten {
         width: 75%;
         height: 45vh;
         margin-top: 20px;
         margin-bottom: 35px;
-
     }
+
     .eleven {
         background-size: 150%;
         width: 75%;
         height: 30vh;
         margin-top: 3px;
         margin-bottom: 5px;
-
     }
-    
+
     .Client1Text {
         font-size: 20px;
-
-    
     }
+
     .Client2Text {
-
         font-size: 20px;
-
     }
     
     .Containerforp1head {
         margin-top: 40px;
         margin-bottom: 50px;
     }
+
     .HeaderProjects {
         font-size: 25px;
         margin-bottom: 15px;
         margin-top: 25px;
     }
     
-    
     .Containerforp2and3 {
         width: 100%;
         margin-top: 22px;
         margin-bottom: 60px;
     }
-    
     
     .Project1image {
         background-size: 100%;
         height: 45vh;
         width: 80%;
     }
+
     .Project1Text{
-        font-size: 20px;
-        
+        font-size: 20px; 
     }
+
     .Project2Image{
         background-size: 100%;
         height: 30vh;
         width: 42%;
     }
+
     .Project2Text{
-        font-size: 20px;
-        
+        font-size: 20px; 
     }
+
     .Project3Image{
         background-size: 100%;
         height: 30vh;
-        width: 42%;
-        
+        width: 42%;   
     }
+
     .Project3Text{
-        font-size: 20px;
-        
+        font-size: 20px;  
     }
+
     .ContactHeadercontainer {
-        
         margin-bottom: 15px;
         margin-top: 25px;
     }
+
     .Contactcontainer{
         height: 14vh;
     }
     
-     .Contactheader {
+    .Contactheader {
         font-size: 25px;
     }
 
 }
 
+/* this is for screens between 710px and 1000 px wide */
+
 @media screen and (min-width: 710px) and (max-width:1000px)   {
     h1 {
         font-size: 25px;
     }
+    .NavSection {
+        height: 10vh;
+    }
+
     a {
         font-size: 25px;
         text-decoration: none;
         color: black;
         font-weight: 900;
     }
+    
     .BackGroundPhoto {
         height: 85vh;
         width: 60%;
-      
     }
+
     .containerforphoto {
-    
         height: 80%;
     }
+
     .AboutMeHeader {
         font-size: 45px;
         margin-bottom: 30px;
-        margin-top: 45px;
-        
+        margin-top: 45px;  
     }
+
     .continerForAboutMe {
-        
         height: 80%;
     }
+
     .aboutMeText {
         font-size: 16px;
         line-height: 30px;
-      
     }
+
     .containerForClients {
         min-height: 400px;
         margin-top: 60px;
         margin-bottom: 40px;
     }
+
     .ClientsHeader {
         font-size: 45px;
         margin-bottom: 30px;
         margin-top: 45px;
     }
-    
-    
-    
+
     .ten {
         width: 75%;
         height: 60vh;
@@ -782,216 +754,81 @@ h1 {
         margin-bottom: 35px;
 
     }
+
     .eleven {
         background-size: 150%;
         width: 75%;
         height: 40vh;
         margin-top: 10px;
         margin-bottom: 15px;
-
     }
     
     .Client1Text {
         font-size: 20px;
-
-    
     }
+
     .Client2Text {
-
         font-size: 20px;
-
     }
     
     .Containerforp1head {
         margin-top: 40px;
         margin-bottom: 50px;
     }
+
     .HeaderProjects {
         font-size: 45px;
         margin-bottom: 30px;
         margin-top: 45px;
     }
     
-    
     .Containerforp2and3 {
         width: 100%;
         margin-top: 22px;
         margin-bottom: 60px;
     }
-    
     
     .Project1image {
         background-size: 100%;
         height: 60vh;
         width: 80%;
     }
+
     .Project1Text{
         font-size: 20px;
-        
     }
+
     .Project2Image{
         background-size: 100%;
         height: 40vh;
         width: 42%;
     }
+
     .Project2Text{
-        font-size: 20px;
-        
+        font-size: 20px; 
     }
+
     .Project3Image{
         background-size: 100%;
         height: 40vh;
-        width: 42%;
-        
+        width: 42%; 
     }
+
     .Project3Text{
-        font-size: 20px;
-        
+        font-size: 20px;  
     }
+
     .ContactHeadercontainer {
         margin-bottom: 30px;
         margin-top: 45px;
     }
+
     .Contactcontainer{
         height: 14vh;
     }
-    
-     .Contactheader {
+
+    .Contactheader {
         font-size: 45px;
     }
 }
 
-}
-
-@media screen and (min-width: 1000px) {
-    h1 {
-        font-size: 30px;
-    }
-    a {
-        font-size: 30px;
-        text-decoration: none;
-        color: black;
-        font-weight: 900;
-    }
-    .BackGroundPhoto {
-        height: 90vh;
-        width: 50%;
-      
-    }
-    .containerforphoto {
-    
-        height: 100%;
-    }
-    .AboutMeHeader {
-        font-size: 60px;
-        margin-bottom: 50px;
-        margin-top: 70px;
-        
-    }
-    .continerForAboutMe {
-        
-        height: 100%;
-    }
-    .aboutMeText {
-        font-size: 16px;
-        line-height: 40px;
-      
-    }
-    .containerForClients {
-        min-height: 600px;
-        margin-top: 60px;
-        margin-bottom: 40px;
-    }
-    .ClientsHeader {
-        font-size: 60px;
-        margin-bottom: 50px;
-        margin-top: 70px;
-    }
-    
-    
-    
-    .ten {
-        width: 75%;
-        height: 70vh;
-        margin-top: 20px;
-        margin-bottom: 35px;
-
-    }
-    .eleven {
-        background-size: 150%;
-        width: 75%;
-        height: 40vh;
-        
-
-    }
-    
-    .Client1Text {
-        font-size: 40px;
-
-    
-    }
-    .Client2Text {
-
-        font-size: 40px;
-
-    }
-    
-    .Containerforp1head {
-        margin-top: 40px;
-        margin-bottom: 50px;
-    }
-    .HeaderProjects {
-        font-size: 60px;
-        margin-bottom: 50px;
-        margin-top: 70px;
-    }
-    
-    
-    .Containerforp2and3 {
-        width: 100%;
-        margin-top: 22px;
-        margin-bottom: 60px;
-    }
-    
-    
-    .Project1image {
-        background-size: 100%;
-        height: 75vh;
-        width: 80%;
-    }
-    .Project1Text{
-        font-size: 51px;
-        
-    }
-    .Project2Image{
-        background-size: 100%;
-        height: 50vh;
-        width: 42%;
-    }
-    .Project2Text{
-        font-size: 51px;
-        
-    }
-    .Project3Image{
-        background-size: 100%;
-        height: 50vh;
-        width: 42%;
-        
-    }
-    .Project3Text{
-        font-size: 51px;
-        
-    }
-    .ContactHeadercontainer {
-        margin-bottom: 50px;
-        margin-top: 70px;
-    }
-    .Contactcontainer{
-        height: 14vh;
-    }
-    
-     .Contactheader {
-        font-size: 60px;
-    }
-    
-}
