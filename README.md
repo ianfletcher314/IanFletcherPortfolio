@@ -22,8 +22,8 @@ This should put a copy of the repository into the directory you had chosen in st
 This site should allow users to easily learn about the differnt web design projects Ian Fletcher has completed. There is also a section where the user can learn more about Ian, and get in contact with him. 
 
 ## Languages and Technologies Used
-CSS < br/>
-HTML < br/>
+CSS <br />
+HTML <br />
 
 
 
