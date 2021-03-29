@@ -208,19 +208,19 @@ h1 {
     background-image: url("../images/Horoscope3.PNG");
     background-repeat: no-repeat;
     background-size: 100%;
-    border-right: 2px solid #000;
-    border-left: 2px solid #000;
-    border-top: 2px solid #000;
-    border-bottom: 2px solid #000;
+    border-right: 4px solid rgb(218, 109, 203);
+    border-left: 4px solid rgb(218, 109, 203);
+    border-top: 4px solid rgb(218, 109, 203);
+    border-bottom: 4px solid rgb(218, 109, 203);
     height: 70vh;
     width: 80%;
 }
 
 .Project1Text{
-    background-color: rgb(218, 109, 203);
-    font-style: italic;
+    background-color: black;
+    /* font-style: italic; */
     font-size: 51px;
-    color: #ffffff;
+    color:  rgb(218, 109, 203);
     
 }
 
@@ -232,19 +232,19 @@ h1 {
     background-image: url("../images/WeatherDashboard.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    border-right: 2px solid #000;
-    border-left: 2px solid #000;
-    border-top: 2px solid #000;
-    border-bottom: 2px solid #000;
+    border-right: 4px solid rgb(218, 109, 203);
+    border-left: 4px solid rgb(218, 109, 203);
+    border-top: 4px solid rgb(218, 109, 203);
+    border-bottom: 4px solid rgb(218, 109, 203);
     height: 40vh;
     width: 42%;
 }
 
 .Project2Text{
-    background-color:rgb(218, 109, 203);
-    font-style: italic;
+    background-color: black;
+    /* font-style: italic; */
     font-size: 40px;
-    color: #ffffff;
+    color:  rgb(218, 109, 203);
     
 }
 
@@ -256,20 +256,19 @@ h1 {
     background-image: url("../images/JSquiz1.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    border-right: 2px solid #000;
-    border-left: 2px solid #000;
-    border-top: 2px solid #000;
-    border-bottom: 2px solid #000;
-    height: 40vh;
+    border-right: 4px solid rgb(218, 109, 203);
+    border-left: 4px solid rgb(218, 109, 203);
+    border-top: 4px solid rgb(218, 109, 203);
+    border-bottom: 4px solid rgb(218, 109, 203);
     width: 42%;
     
 }
 
 .Project3Text{
-    background-color: rgb(218, 109, 203);
-    font-style: italic;
+    background-color: black;
+    /* font-style: italic; */
     font-size: 40px;
-    color: #ffffff;
+    color:  rgb(218, 109, 203);
     
 }
 
