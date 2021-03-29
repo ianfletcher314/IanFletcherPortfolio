@@ -27,8 +27,8 @@ HTML <br />
 
 
 
-![alt text](assets/images/portfolio1.png)
-![alt text](assets/images/portfolio2.png)
+![Portfolio Main Page Photo](assets/images/portfolio1.png)
+![Portfolio Photo 2](assets/images/portfolio2.png)
 
 [Check Out The Full Page](https://ianfletcher314.github.io/IanFletcherPortfolio/)
 
