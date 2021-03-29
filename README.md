@@ -21,6 +21,11 @@ This should put a copy of the repository into the directory you had chosen in st
 ## Usage
 This site should allow users to easily learn about the differnt web design projects Ian Fletcher has completed. There is also a section where the user can learn more about Ian, and get in contact with him. 
 
+## Languages and Technologies Used
+CSS < br/>
+HTML < br/>
+
+
 
 ![alt text](assets/images/portfolio1.png)
 ![alt text](assets/images/portfolio2.png)
